@@ -1,5 +1,6 @@
 # 2024 Holders snapshot
-This small project allows you to get snapshot of token holders by **Block**, **Token address** and **Chain**. For that you might need [covalent API key](https://www.covalenthq.com) (now GoldRush API) to pass it into the .env file.
+This small project allows you to get snapshot of token holders by **Block**, **Token address** and **Chain**. For that you might need [covalent API key](https://www.covalenthq.com) (now GoldRush API) to pass it into the `.env` file.
+
 ---
 ### Installing dependecies
 Initially install ann necessary dependecies (no matter via npm/yarn/pnpm etc.).
