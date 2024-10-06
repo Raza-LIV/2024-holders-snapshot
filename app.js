@@ -10,7 +10,8 @@ async function fetchAllPages() {
   const blockHeight = args._[0]
   let address = args._[1]
   address = address.replace(/['"]+/g, "")
-  const apiUrl = `https://api.covalenthq.com/v1/1/tokens/${address}/token_holders/`
+  const chainId = args._[2]
+  const apiUrl = `https://api.covalenthq.com/v1/${chainId}/tokens/${address}/token_holders/`
   const apiKey = process.env.API_KEY
   let page = 0
   const pageSize = 100
